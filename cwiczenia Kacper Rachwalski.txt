@@ -1,0 +1,38 @@
+Cwiczenie5
+
+curl:(56) Recv failure: Connection was reset 
+
+curl:(7) Failed to connect to 127.0.0.1 port 5000 after 2013 ms: Connection refused
+
+curl:(7) Failed to connect to 127.0.0.1 port 5000 after 2209 ms: Connection refused
+
+Cwiczenie6 
+
+Hello Kacper zamiast Hello WSB
+
+curl:(7) Failed to connect to 127.0.0.1 port 5000 after 2019 ms: Connection refused
+
+Zakładam, że jest to błąd. Próbowałem zmieniać w app.py 
+if __name__ == "__main__":
+    app.run(host='0.0.0.0', port=5000)
+otowrzyć flask przy pomocy flask run --host=0.0.0.0
+i pare innych metod, niestety błąd się powtarza.
+
+Cwiczenie 8
+************* Module app
+app.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+app.py:8:0: C0116: Missing function or method docstring (missing-function-docstring)
+app.py:13:0: C0116: Missing function or method docstring (missing-function-docstring)
+app.py:18:0: C0116: Missing function or method docstring (missing-function-docstring)
+app.py:19:4: R1705: Unnecessary "else" after "return" (no-else-return)
+
+------------------------------------------------------------------
+Your code has been rated at 6.43/10 (previous run: 6.43/10, +0.00)
+
+make: *** [Makefile:8: pylint1] Error 24
+
+cwiczenie10
+
+README daje nam instrukcje jak użyć plików zawartych w repozytorium które pobieramy.
+Są one potrzebne aby poprawnie skorzystać z niego.
+Gwarantuje nam to też dostęp do ważnych informacji nawet jeśli plik jest udostępniony przez inną stronę (na której np. nie ma instrukcji)
