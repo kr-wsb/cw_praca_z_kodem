@@ -1,8 +1,7 @@
 FROM python:3.8-slim-buster
 
 
-WORKDIR C:\Users\kacpe\Desktop\szkoła\cw_praca_z_kodem
-
+WORKDIR /test-flask-docker
 
 COPY requirements.txt requirements.txt
 
